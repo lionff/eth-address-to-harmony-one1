@@ -10,6 +10,4 @@ def convert_eth_to_one(address: str, useHRP: str = HRP) -> str:
 
 address = "0x11c4e687b865c1e8e17437748ab3d1faed7444ff"
 
-#b = convert_eth_to_one(address)
-
 print(convert_eth_to_one(address)[1])
